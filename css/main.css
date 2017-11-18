@@ -1,0 +1,196 @@
+/****** BASE ******/
+
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+#about {
+    height: 600px;
+}
+
+#work {
+    height: 600px;
+}
+
+#contact {
+    height: 600px;
+}
+
+/***** GRID *****/
+
+.full-width {
+    width: 1200px;
+    margin: 0 auto;
+}
+.half-width {
+  width: 600px;
+  float: left;
+}
+.third-width {
+  width: 400px;
+  float: left;
+}
+
+/***** HEADER *****/
+
+/* computer and chair photo */
+header {
+    height: 800px;
+    background-image: url(../img/hero.png);
+    background-size: cover;
+}
+
+/* green Jubilee Austen title */
+header h1 {
+    padding: 50px 0;
+    font-family: 'Lora', serif;
+    color: #bbc085;
+    font-size: 30px;
+}
+
+/* about, work, and contact links */
+nav {
+    float: right;
+    padding: 75px 40px;
+}
+nav ul li{
+    display: inline-block;
+}
+nav ul li a {
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 18px;
+    color: #828282;
+    padding-left: 80px;
+}
+
+/* Hi, I am a... header */
+header h2 {
+    width: 1000px;
+    clear: both;
+    font-family: 'Lora', serif;
+    font-size: 72px;
+    line-height: 80px;
+    color: #9b9b9b;
+    padding: 20px 0;
+}
+header h2 span {
+    color: #2b2b2b;
+}
+
+
+/***** ABOUT SECTION *****/
+
+#about .full-width {
+    padding: 80px 0;
+}
+
+/* A little bit about me. */
+#about h2 {
+    font-family: 'Lora', serif;
+    font-size: 36px;
+}
+
+#about p {
+    font-size: 21px;
+    color: #7F7F7F;
+    line-height: 40px;
+    padding-right: 50px;
+}
+
+/***** WORK SECTION *****/
+
+/*peach colored section*/
+#work {
+  background-color: #F9CEB7;
+  text-align: center;
+  width: 1270px;
+}
+
+#work .full-width {
+    padding: 115px 0;
+}
+
+#work img {
+    padding-bottom: 30px;
+}
+
+/* Hand-Coded HTML, Well-Organized CSS, Ease Converting PSD to HTML */
+#work h3 {
+    font-size: 24px;
+    width: 190px;
+    margin: 0 auto;
+}
+
+/* three paragraphs under icons, "My focus is...", "I pride myself on...", "You can trust me..." */
+#work p {
+    font-family: 'Lora', serif;
+    font-size: 18px;
+    line-height: 30px;
+    color: #2B2B2B;
+    padding: 0 35px;
+}
+
+/***** CONTACT SECTION *****/
+
+/* grey section */
+#contact {
+  background-color: #EBEBEB;
+  width: 1270px;
+}
+
+#contact .full-width {
+    padding: 110px 0;
+}
+
+#contact-img {
+    border: 12px solid #ffffff;
+}
+
+#contact h2, #email-header, #socialmedia-header, #contact ul {
+    padding-left: 115px;
+}
+
+#envelope {
+    padding: 0 10px 0 115px;
+}
+
+/* Like what you see? */
+#contact h2 {
+    font-family: 'Lora', serif;
+    font-size: 36px;
+}
+
+/* Let's meet for a cup of coffee. */
+#email-header{
+    font-size: 32px;
+    font-weight: lighter;
+    margin: -30px 0 5px 0;
+}
+
+/* Or find me on the interwebs. */
+#socialmedia-header {
+    font-weight: bold;
+    font-size: 29px;
+    margin: 40px 0 0 0;
+}
+
+/* hi@jubileeausten.com */
+#contact a {
+    text-decoration:none;
+    color: #C49075;
+    font-weight: bold;
+    font-size: 28px;
+}
+
+/* social media icons */
+#contact ul {
+    list-style: none;
+}
+#contact ul li {
+     display: inline-block;
+}
+#contact ul img {
+    font-size: 32px;
+    padding-right: 48px;
+}
